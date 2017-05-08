@@ -21,7 +21,7 @@ header,section{
 
 .myFooter .quote {
   z-index: 1;
-  position: fixed;
+  position: absolute;
   left: 50%;
   bottom: 90px;
   margin-left: -450px;
@@ -47,20 +47,20 @@ header,section{
 }
 
 .myFooter .bottom .left{
-  position: fixed;
+  position: absolute;
   bottom: 30px;
   left: 8%;
 }
 
 .myFooter .bottom .right {
-  position: fixed;
+  position: absolute;
   bottom: 30px;
   right: 8%;
   text-align: right;
 }
 
 .myFooter .bottom .center img {
-  position: fixed;
+  position: absolute;
   width: 250px;
   margin-left: -100px;
   bottom: 120px;
